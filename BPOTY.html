@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2024 Recap</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="BPOTY.css" />
+    <link rel="stylesheet" href="firework.css" />
+    <script src="script.js" defer></script>
+    <script>
+      // Check if the page was loaded directly
+      if (!sessionStorage.getItem("started")) {
+        window.location.href = "index.html"; // Redirect to the start page
+      }
+    </script>
+  </head>
+
+  <body>
+    <audio id="introAudio" autoplay>
+      <source src="music/Introduction.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="timelineAudio" loop>
+      <source
+        src="music/A Story About Us   Beautiful & Relaxing Piano SongBigRicePiano.mp3"
+        type="audio/mpeg"
+      />
+    </audio>
+    <div class="container">
+      <div class="FirstPart">
+        <div class="p1">Welcome to 2024 Recap</div>
+        <div class="p2">
+          This year has been a rollercoaster—new beginnings, unexpected
+          challenges, and moments we’ll never forget.
+        </div>
+        <div class="p3">But through it all, there was one constant.</div>
+        <div class="p4">
+          One person who showed up, stood out, and made it all better.
+        </div>
+        <div class="p5"><span>And that person is…</span></div>
+        <div class="p6"><div class="p6__child"></div></div>
+        <div class="p7">
+          From math tutoring that saved the day to life advice that changed the
+          game, you’ve been a rockstar in every way.
+        </div>
+        <div class="p8">You gave me wisdom, laughs, and support.</div>
+        <div class="p9">And honestly? <br />You ate and left no crumbs.</div>
+        <div class="p10">
+          But more than that—you’ve been the friend that anyone could wish for.
+        </div>
+        <div class="p11">
+          A friend who listens, understands, and always makes things brighter.
+        </div>
+        <div class="p12">For all of that and so much more…<br />Thank you.</div>
+        <div class="p13">
+          Let’s relive the highlights of our friendship this year, because
+          Smriti, you deserve to see how amazing you’ve been.
+        </div>
+      </div>
+      <div class="Celebration">
+        <div class="firework"></div>
+        <div class="firework"></div>
+        <div class="firework"></div>
+        <div class="firework"></div>
+        <div class="firework"></div>
+        <div class="firework"></div>
+      </div>
+    </div>
+
+    <div class="timeline-container" style="display: none">
+      <iframe
+        src="draft_timeline.html"
+        frameborder="0"
+        style="width: 100%; height: 100vh"
+      ></iframe>
+    </div>
+  </body>
+</html>
